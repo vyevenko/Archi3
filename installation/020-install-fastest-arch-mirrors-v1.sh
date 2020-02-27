@@ -27,7 +27,7 @@ echo "################################################################"
 cat /etc/pacman.d/mirrorlist
 
 
-sudo pacman -Syu
+sudo pacman -Syyu --noconfirm --needed
 
 
 echo "################################################################"
