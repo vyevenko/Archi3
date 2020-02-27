@@ -113,6 +113,7 @@ poweroff
 # https://www.youtube.com/watch?time_continue=128&v=fV17DgsQcsY&feature=emb_logo
 # https://www.youtube.com/watch?v=oSgtKyZUM4M
 # https://github.com/erikdubois/Archi3
+# https://github.com/vyevenko/Archi3.git
 sudo pacman -S i3
 # choose: i3-gaps, i3blocks, i3lock, i3status
 sudo pacman -S git
