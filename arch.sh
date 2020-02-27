@@ -1,8 +1,8 @@
 #!/bin/bash
 
+# Guide: https://wiki.archlinux.org/index.php/Installation_guide
 # Source: https://medium.com/@gevorggalstyan/how-to-install-arch-linux-on-virtualbox-93bc83ded692
 # Video: https://www.youtube.com/watch?v=EN9yo4dJ-O4
-# Guide: https://wiki.archlinux.org/index.php/Installation_guide
 # ThinkPad X1 Carbon: https://linuxconfig.org/install-arch-linux-on-thinkpad-x1-carbon-gen-7-with-encrypted-filesystem-and-uefi
 # https://devpew.com/blog/arch-install
 # GDM: https://wiki.archlinux.org/index.php/GDM
@@ -39,7 +39,7 @@ mkdir /mnt/home
 mount /dev/sda3 /mnt/home
 
 # Bootstrap system
-pacstrap /mnt base base-devel linux linux-firmware nano dhcpcd net-tools iproute2 grub rxvt-unicode
+pacstrap /mnt base base-devel linux linux-firmware nano dhcpcd net-tools iproute2 grub rxvt-unicode git curl
 
 # Create fstab
 genfstab -U /mnt >> /mnt/etc/fstab
@@ -57,6 +57,7 @@ nano /etc/pacman.d/mirrorlist
 
 # Set System Language:
 nano /etc/locale.gen 
+# uncomment en_US.UTF-8 UTF-8
 # uncomment uk_UA.UTF-8 UTF-8
 locale-gen
 echo "LANG=en_US.UTF-8"  > /etc/locale.conf
@@ -68,6 +69,12 @@ hwclock --systohc
 # Set Hostname
 echo "vyeve.arch" > /etc/hostname
 
+# Add matching entries to hosts:
+nano /etc/hosts
+# 127.0.0.1	localhost
+# ::1		localhost
+# 127.0.1.1	myhostname.localdomain	myhostname
+
 # Initframes
 mkinitcpio -P
 # Set Root password
@@ -75,7 +82,7 @@ passwd
 
 # Install GRUB Boot Loader
 pacman -S grub
-grub-install --target=i386-pc /dev/sdX
+grub-install --target=i386-pc /dev/sda
 grub-mkconfig -o /boot/grub/grub.cfg
 
 # Install dhcpcd
@@ -87,9 +94,17 @@ systemctl enable dhcpcd
 useradd -m -G wheel vyeve
 passwd vyeve
 
+nano /etc/sudoers
+# uncomment: # %wheel ALL=(ALL) ALL
+
 #update keys
 pacman-key --init
 pacman-key --populate archlinux
+
+# exit
+exit
+umount -R /mnt
+poweroff
 
 ##########################
 ##     Install i3wm     ##
