@@ -4,11 +4,17 @@ set -e
 echo "Moving files to start i3wm"
 echo "Using Sardi icons, Arc theme and noto font from previous scripts"
 
-cp settings2/.bash_profile ~/
-cp settings2/.bashrc ~/
-cp settings/.gtkrc-2.0 ~/
-cp settings2/.xinitrc ~/
-cp settings/settings.ini ~/.config/gtk-3.0/
+cp settings2/root/.bash_profile ~/
+cp settings2/root/.bashrc ~/
+cp settings2/root/.xinitrc ~/
+cp settings2/root/.profile ~/
+cp settings2/root/.dmenurc ~/
+cp settings2/root/.dmrc ~/
+
+mkdir ~/.i3
+cp settings2/root/config ~/.i3
+
+cp settings2/root/.Xresources ~/
 
 
 echo "################################################################"
