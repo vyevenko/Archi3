@@ -137,3 +137,19 @@ ex ()
     echo "'$1' is not a valid file"
   fi
 }
+
+export KUBE_EDITOR=nano
+export KUBECONFIG=$HOME/.kube/config
+
+########################
+
+# Default Editor
+export EDITOR=nano
+
+#color bash
+parse_git_branch() { 
+
+git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/' 
+
+} 
+PS1='\[\033[01;32m\]$(printf %s "$(date +%k:%M:%S#%d-%m-%y)")@\u\[\033[00m\]:\[\033[01;33m\]\w\[\033[00m\]\[\033[01;31m\]$(parse_git_branch)\[\033[00m\]\$ '
