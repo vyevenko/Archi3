@@ -23,7 +23,7 @@ echo "################################################################"
 
 sudo pacman -S rxvt-unicode ranger rofi conky dmenu urxvt-perls \
 perl-anyevent-i3 perl-json-xs \
-openssh nemo pcmanfm terminal --noconfirm --needed
+openssh nemo pcmanfm terminal xterm --noconfirm --needed
 
 echo "################################################################"
 echo "Installing X Window applications"   
