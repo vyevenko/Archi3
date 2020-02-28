@@ -146,6 +146,9 @@ export KUBECONFIG=$HOME/.kube/config
 # Default Editor
 export EDITOR=nano
 
+export BROWSER=/usr/bin/firefox
+export TERMINAL=/usr/bin/urxvt
+
 #color bash
 parse_git_branch() { 
 
