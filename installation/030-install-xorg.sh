@@ -3,7 +3,7 @@ set -e
 
 echo " Xserver setup"
 
-sudo pacman -S xorg-server xorg-apps xorg-xinit xorg-twm rxvt-unicode --noconfirm --needed
+sudo pacman -S xorg-server xorg-apps xorg-xinit xorg-twm rxvt-unicode xterm --noconfirm --needed
 echo
 echo "################################################################"
 echo "choose virtualbox-guest-modules-arch in the next installation"
