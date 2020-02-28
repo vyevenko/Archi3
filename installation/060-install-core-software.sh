@@ -22,7 +22,8 @@ echo "Installing additional tools for i3"
 echo "################################################################"
 
 sudo pacman -S rxvt-unicode ranger rofi conky dmenu urxvt-perls \
-perl-anyevent-i3 perl-json-xs --noconfirm --needed
+perl-anyevent-i3 perl-json-xs \
+openssh nemo pcmanfm terminal --noconfirm --needed
 
 echo "################################################################"
 echo "Installing X Window applications"   
