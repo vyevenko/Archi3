@@ -10,3 +10,5 @@ echo "################################################################"
 sudo pacman -S lightdm --noconfirm --needed
 
 yay -S --noconfirm --needed lightdm-slick-greeter
+
+sudo systemctl enable lightdm

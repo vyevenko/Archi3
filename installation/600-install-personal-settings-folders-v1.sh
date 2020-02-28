@@ -23,6 +23,7 @@ echo "Creating all folders"
 [ -d $HOME"/Pictures" ] || mkdir -p $HOME"/Pictures"
 [ -d $HOME"/Videos" ] || mkdir -p $HOME"/Videos"
 [ -d $HOME"/.fonts" ] || mkdir -p $HOME"/.fonts"
+[ -d $HOME"/.i3" ] || mkdir -p $HOME"/.i3"
 
 echo "################################################################"
 echo "#########       personal folders copied         ################"
