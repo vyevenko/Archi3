@@ -12,10 +12,11 @@ cp settings2/root/.dmenurc ~/
 cp settings2/root/.dmrc ~/
 
 mkdir ~/.i3
-cp settings2/root/config ~/.i3
+cp settings2/root/config ~/.i3/
 
 cp settings2/root/.Xresources ~/
 
+cp settings2/root/blurlock /usr/local/bin/blurlock
 
 echo "################################################################"
 echo "#########      root files copied                ################"
