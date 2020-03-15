@@ -9,7 +9,9 @@ echo "################################################################"
 
 sudo pacman -S noto-fonts ttf-ubuntu-font-family ttf-dejavu ttf-freefont \
 ttf-liberation ttf-droid ttf-inconsolata ttf-roboto terminus-font ttf-font-awesome \
---noconfirm --needed
+adobe-source-code-pro-fonts ttf-hack --noconfirm --needed
+
+yay -S nerd-fonts-terminus --noconfirm --needed
 
 echo "################################################################"
 echo "Installing Sound Drivers and Tools"   
@@ -23,7 +25,7 @@ echo "################################################################"
 
 sudo pacman -S rxvt-unicode ranger rofi conky dmenu urxvt-perls \
 perl-anyevent-i3 perl-json-xs \
-openssh nemo pcmanfm xterm --noconfirm --needed
+openssh nemo pcmanfm xterm nitrogen sakura --noconfirm --needed
 
 echo "################################################################"
 echo "Installing X Window applications"   
@@ -32,4 +34,5 @@ echo "################################################################"
 sudo pacman -S firefox --noconfirm --needed
 sudo pacman -S nemo baobab net-tools wget transmission-gtk --noconfirm --needed
 
-yay -S urxvt-font-size-git sublime-text --noconfirm --needed
+yay -S urxvt-font-size-git urxvt-tabbedex sublime-text --noconfirm --needed
+yay -S xlunch-git --noconfirm --needed
