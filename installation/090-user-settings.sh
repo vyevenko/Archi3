@@ -8,7 +8,7 @@ cp settings2/root/.bash_profile ~/
 cp settings2/root/.bashrc ~/
 cp settings2/root/.xinitrc ~/
 cp settings2/root/.profile ~/
-cp settings2/root/.dmenurc ~/
+# cp settings2/root/.dmenurc ~/
 cp settings2/root/.dmrc ~/
 
 mkdir ~/.i3
