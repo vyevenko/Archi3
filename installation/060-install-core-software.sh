@@ -11,7 +11,8 @@ sudo pacman -S noto-fonts ttf-ubuntu-font-family ttf-dejavu ttf-freefont \
 ttf-liberation ttf-droid ttf-inconsolata ttf-roboto terminus-font ttf-font-awesome \
 adobe-source-code-pro-fonts ttf-hack --noconfirm --needed
 
-yay -S nerd-fonts-terminus --noconfirm --needed
+# yay -S nerd-fonts-terminus --noconfirm --needed
+yay -S ttf-poppins --noconfirm --needed
 
 echo "################################################################"
 echo "Installing Sound Drivers and Tools"   

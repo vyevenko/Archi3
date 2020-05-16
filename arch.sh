@@ -6,7 +6,9 @@
 # ThinkPad X1 Carbon: https://linuxconfig.org/install-arch-linux-on-thinkpad-x1-carbon-gen-7-with-encrypted-filesystem-and-uefi
 # https://devpew.com/blog/arch-install
 # GDM: https://wiki.archlinux.org/index.php/GDM
-ifconfig
+ip a
+
+wifi-menu
 
 # check network
 ping google.com -c 3
@@ -18,6 +20,7 @@ route add default gw 192.168.1.1
 echo "nameserver 192.168.1.1" >> /etc/resolv.conf
 echo "nameserver 8.8.8.8" >> /etc/resolv.conf
 
+# localectl list-keymaps | grep CH
 # update system clock
 timedatectl set-ntp true
 
@@ -37,6 +40,10 @@ swapon /dev/sda2
 mount /dev/sda1 /mnt
 mkdir /mnt/home
 mount /dev/sda3 /mnt/home
+mkdir /mnt/efi
+mount /dev/sdXEFI /mnt/efi
+mkdir /mnt/windows 
+mount /dev/sdXWindows /mnt/windows
 
 # Bootstrap system
 pacstrap /mnt base base-devel linux linux-firmware nano dhcpcd net-tools iproute2 grub rxvt-unicode git curl
