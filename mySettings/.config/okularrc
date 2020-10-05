@@ -1,0 +1,20 @@
+[Desktop Entry]
+FullScreen=false
+
+[MainWindow]
+Height 1080=1036
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAPWAAAABAAAAAQAAAAIAAAACPwAAAACAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAiAGEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1920=949
+eDP1 Height 1080=1050
+eDP1 Width 1920=1920
+eDP1 XPosition=0
+eDP1 YPosition=0
+
+[Recent Files]
+File1[$e]=$HOME/MEGA/Books/C/Брайан Керниган, Деннис Ритчи - Язык программирования C (2001).pdf
+File2[$e]=$HOME/Documents/Conversions.pdf
+File3[$e]=$HOME/MEGA/Books/Теория_вероятности.pdf
+Name1[$e]=Брайан Керниган, Деннис Ритчи - Язык программирования C (2001).pdf
+Name2[$e]=Conversions.pdf
+Name3[$e]=Теория_вероятности.pdf

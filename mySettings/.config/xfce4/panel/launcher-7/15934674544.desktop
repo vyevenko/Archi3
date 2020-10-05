@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=logout
+Comment=
+Exec=/usr/local/bin/arcolinux-logout\n
+Icon=decrypted
+Path=
+Terminal=false
+StartupNotify=false

@@ -1,0 +1,45 @@
+{
+  "main_window_geometry": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywADAAAAAAAAAAAAAAAAB38AAAQZAAAAAAAAAAAAAAd/AAAEGQAAAAAAAAAAB4AAAAAAAAAAAAAAB38AAAQZ"
+  }, 
+  "main_window_state": {
+    "__class__": "bytearray", 
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAvsAAAAWAHMAZQBhAHIAYwBoAC0AZABvAGMAawAAAAAA/////wAAAKYA////+wAAABAAdABvAGMALQBkAG8AYwBrAAAAAAD/////AAAAkgD///8AAAABAAAAAAAAAAD8AgAAAAT7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAAOYA////+wAAABYAbABvAG8AawB1AHAALQBkAG8AYwBrAAAAAAD/////AAAAcgD////7AAAAHABiAG8AbwBrAG0AYQByAGsAcwAtAGQAbwBjAGsAAAAAAP////8AAAEKAP////sAAAAcAGkAbgBzAHAAZQBjAHQAbwByAC0AZABvAGMAawAAAAAA/////wAAABgA////AAAHgAAABBoAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+  }, 
+  "old_prefs_migrated": true, 
+  "session_data": {
+    "base_font_size": 32, 
+    "controls_help_shown_count": 2, 
+    "current_color_scheme": "*My Sephia", 
+    "standalone_font_settings": {
+      "sans_family": "Source Code Pro", 
+      "standard_font": "sans"
+    }, 
+    "standalone_misc_settings": {
+      "remember_last_read": true, 
+      "remember_window_geometry": false, 
+      "save_annotations_in_ebook": true, 
+      "singleinstance": false
+    }, 
+    "standalone_recently_opened": [
+      {
+        "authors": [
+          "Brian W. Kernighan", 
+          "Dennis M. Ritchie"
+        ], 
+        "key": "/home/vyeve/Calibre Library/Brian W. Kernighan/C Programming Language (2)/C Programming Language - Brian W. Kernighan.epub", 
+        "pathtoebook": "/home/vyeve/Calibre Library/Brian W. Kernighan/C Programming Language (2)/C Programming Language - Brian W. Kernighan.epub", 
+        "timestamp": "2020-09-19T11:26:17.236Z", 
+        "title": "C Programming Language"
+      }
+    ], 
+    "user_color_schemes": {
+      "*My Sephia": {
+        "background": "#e3ceb9", 
+        "foreground": "#000000", 
+        "name": "My Sephia"
+      }
+    }
+  }
+}

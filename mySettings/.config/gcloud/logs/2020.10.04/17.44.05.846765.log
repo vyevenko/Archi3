@@ -1,0 +1,31 @@
+2020-10-04 17:44:05,847 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2020-10-04 17:44:05,849 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'config_helper']
+2020-10-04 17:44:05,851 DEBUG    root            Running [gcloud.config.config-helper] with arguments: [--format: "json"]
+2020-10-04 17:44:06,020 DEBUG    google_auth_httplib2 Making request: POST https://www.googleapis.com/oauth2/v4/token
+2020-10-04 17:44:06,628 INFO     root            Display format: "default json"
+2020-10-04 17:44:06,630 INFO     ___FILE_ONLY___ {
+  "configuration": {
+    "active_configuration": "mobco",
+    "properties": {
+      "compute": {
+        "zone": "europe-west2-a"
+      },
+      "core": {
+        "account": "vyeve@ik-tech.io",
+        "disable_usage_reporting": "True",
+        "project": "mobco-prod"
+      }
+    }
+  },
+  "credential": {
+    "access_token": "ya29.a0AfH6SMAM_pPypZ7emibghTa39xDQDxxt-sj5vp6_UNCtBsF_PG5wijaeNn0IgM2WbGLgZXoc_1lnom-XrLLKx4fUhboTEOzjd-sTlERiRtKCCoxC2xm3reg5XYFPKdly8MIxhoQ5aGBj40rm9HaoPiEmMHb3qOntxFsMOglD0WE3nw",
+    "id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjVlZmZhNzZlZjMzZWNiNWUzNDZiZDUxMmQ3ZDg5YjMwZTQ3ZDhlOTgiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIzMjU1NTk0MDU1OS5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsImF1ZCI6IjMyNTU1OTQwNTU5LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTE2MjIwODc5MTYxMDg3Njk1NDQzIiwiaGQiOiJpay10ZWNoLmlvIiwiZW1haWwiOiJ2eWV2ZUBpay10ZWNoLmlvIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF0X2hhc2giOiI1NnVidHBBc1d3d3ZfUVNGNms2SDlnIiwiaWF0IjoxNjAxODIyNjQ2LCJleHAiOjE2MDE4MjYyNDZ9.OMYinxp-FnLqnQ6opa6iOfy2XZQEaj35cBscQ5VU8k5bUjYdqRklAAU6zZ23dg2oOJ-T9zPRiFJC1-qHI4SYm0M0Dyx7FrBtd-PnieChMdCYZIvzeZLOBGXH_zXIlGP4ls7ZUiHjDh-qAF4GurChFfd9vvqroXCD7_1z2tSlKJvDBLwqpUc8MvN28eO2N4lf3ae8yrb8KGvRYBvyGU98OQwMyLXf4tjXhkj_evCtiwf-gweQQ3h96W7ysmpCQRKqfdcGP5p-Ob_NKYnTAyAkVkCVElVzBhbtMaNwHeCVC8jWdhLKPy985231mHBUpnzJl5o5LvJOa3QqreXx3VsZmQ",
+    "token_expiry": "2020-10-04T15:44:05Z"
+  },
+  "sentinels": {
+    "config_sentinel": "/home/vyeve/.config/gcloud/config_sentinel"
+  }
+}
+2020-10-04 17:44:06,630 INFO     ___FILE_ONLY___ 
+
+2020-10-04 17:44:06,631 DEBUG    root            SDK update checks are disabled.

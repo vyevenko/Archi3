@@ -1,0 +1,11 @@
+2020-09-05 15:06:31,684 DEBUG    root            Loaded Command Group: ['gcloud', 'auth']
+2020-09-05 15:06:31,688 DEBUG    root            Loaded Command Group: ['gcloud', 'auth', 'docker_helper']
+2020-09-05 15:06:31,690 DEBUG    root            Running [gcloud.auth.docker-helper] with arguments: [METHOD: "get"]
+2020-09-05 15:06:31,694 INFO     root            Display format: "json"
+2020-09-05 15:06:31,694 INFO     ___FILE_ONLY___ {
+  "Secret": "ya29.a0AfH6SMDSEoTsed_8n4b9-R8Yy2deQde8jfAmBYxZo0S-ysvdx74d3vdSJ9V8EXH7S7CwQOVLHWLOUO3qrxB8K768Xmj_eKz8g1r_-q6874RHtZIxBgXIGShsRx_9QmUmi3hx1JQa3PRuyxyXf95w8gdYLeo1f3_5hu9TXaTl-0ol0A",
+  "Username": "_dcgcloud_token"
+}
+2020-09-05 15:06:31,695 INFO     ___FILE_ONLY___ 
+
+2020-09-05 15:06:31,695 DEBUG    root            SDK update checks are disabled.

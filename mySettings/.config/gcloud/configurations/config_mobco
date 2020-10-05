@@ -1,0 +1,7 @@
+[core]
+project = mobco-prod
+account = vyeve@ik-tech.io
+
+[compute]
+zone = europe-west2-a
+

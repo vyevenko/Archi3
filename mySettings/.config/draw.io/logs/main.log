@@ -1,0 +1,30 @@
+[2020-07-18 16:18:48.178] [info] Checking for update
+[2020-07-18 16:18:48.216] [info] Generated new staging user ID: b280fc7c-8b2a-58b4-84b8-cff5f2ce9668
+[2020-07-18 16:18:50.719] [info] Found version 13.4.5 (url: draw.io-x86_64-13.4.5.AppImage)
+[2020-07-18 16:18:50.719] [info] @update-available@
+ {
+  version: '13.4.5',
+  files: [
+    {
+      url: 'draw.io-x86_64-13.4.5.AppImage',
+      sha512: 'dZTBtA1bHH9Ynee1yr/GSrB0cEy/lud+qNU7aZxF5cu+B8FKn/x+NdyaigKRUg5mNmZCRJqk1PoYNQ0uxbAoWA==',
+      size: 107620937,
+      blockMapSize: 113245
+    }
+  ],
+  path: 'draw.io-x86_64-13.4.5.AppImage',
+  sha512: 'dZTBtA1bHH9Ynee1yr/GSrB0cEy/lud+qNU7aZxF5cu+B8FKn/x+NdyaigKRUg5mNmZCRJqk1PoYNQ0uxbAoWA==',
+  releaseDate: '2020-07-16T15:37:44.074Z',
+  releaseName: '13.4.5',
+  releaseNotes: '<h2>Releases Notes for 13.4.5</h2>\n' +
+    '<p><a href="https://github.com/jgraph/drawio-desktop/releases/download/v13.4.5/draw.io-13.4.5-windows-installer.exe">Windows Installer</a><br>\n' +
+    '<a href="https://github.com/jgraph/drawio-desktop/releases/download/v13.4.5/draw.io-13.4.5-windows-no-installer.exe">Windows No Installer</a><br>\n' +
+    '<a href="https://github.com/jgraph/drawio-desktop/releases/download/v13.4.5/draw.io-13.4.5.dmg">macOS</a><br>\n' +
+    'Linux - <a href="https://github.com/jgraph/drawio-desktop/releases/download/v13.4.5/draw.io-amd64-13.4.5.deb">deb</a>, <a href="https://snapcraft.io/drawio" rel="nofollow">snap</a>, <a href="https://github.com/jgraph/drawio-desktop/releases/download/v13.4.5/draw.io-x86_64-13.4.5.AppImage">AppImage</a> or <a href="https://github.com/jgraph/drawio-desktop/releases/download/v13.4.5/draw.io-x86_64-13.4.5.rpm">rpm</a><br>\n' +
+    '<a href="https://chrome.google.com/webstore/detail/drawio-desktop/pebppomjfocnoigkeepgbmcifnnlndla/reviews" rel="nofollow">Google Chrome OS</a></p>\n' +
+    '<p><strong>ChangeLog:</strong></p>\n' +
+    '<ul>\n' +
+    '<li>Updates to <a href="https://github.com/jgraph/drawio/blob/v13.4.5/ChangeLog">draw.io 13.4.5</a>, changes in 13.4.5 are new in this desktop release.</li>\n' +
+    '</ul>'
+} undefined
+[2020-07-18 16:18:57.042] [info] @dont check for updates!@

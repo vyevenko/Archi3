@@ -1,0 +1,124 @@
+;==========================================================
+;
+;
+;   ██████╗  ██████╗ ██╗  ██╗   ██╗██████╗  █████╗ ██████╗
+;   ██╔══██╗██╔═══██╗██║  ╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
+;   ██████╔╝██║   ██║██║   ╚████╔╝ ██████╔╝███████║██████╔╝
+;   ██╔═══╝ ██║   ██║██║    ╚██╔╝  ██╔══██╗██╔══██║██╔══██╗
+;   ██║     ╚██████╔╝███████╗██║   ██████╔╝██║  ██║██║  ██║
+;   ╚═╝      ╚═════╝ ╚══════╝╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
+;
+;
+;   To learn more about how to configure Polybar
+;   go to https://github.com/polybar/polybar
+;
+;   The README contains a lot of information
+;
+;==========================================================
+
+;==========================================================
+
+include-file = $HOME/.config/polybar/dependencies/i3.ini
+include-file = $HOME/.config/polybar/dependencies/colors.ini
+include-file = $HOME/.config/polybar/dependencies/date.ini
+include-file = $HOME/.config/polybar/dependencies/battery.ini
+include-file = $HOME/.config/polybar/dependencies/keyboard.ini
+include-file = $HOME/.config/polybar/dependencies/memory.ini
+include-file = $HOME/.config/polybar/dependencies/swap.ini
+include-file = $HOME/.config/polybar/dependencies/cpu.ini
+include-file = $HOME/.config/polybar/dependencies/temperature.ini
+include-file = $HOME/.config/polybar/dependencies/logout.ini
+include-file = $HOME/.config/polybar/dependencies/launcher.ini
+include-file = $HOME/.config/polybar/dependencies/space.ini
+
+;==========================================================
+
+[bar/main]
+
+;monitor = ${env:MONITOR:HDMI-1}
+width = 100%
+height = 28
+dock = false
+bottom = true
+radius = 0.0
+offset-x = 0%
+fixed-center = false
+override-redirect = true
+
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+border-top-size = 2px
+;border-left-size = 2px
+border-top-color = ${colors.arc}
+;border-left-color = ${colors.arc}
+
+padding-left = 0
+padding-right = 0
+
+module-margin-left = 0
+module-margin-right = 2
+
+
+;==========================================================
+
+font-0 = "DejaVu Sans:pixelsize=13;2"
+font-1 = "Font Awesome 5 Free:pixelsize=13;2"
+font-2 = "Font Awesome 5 Free Solid:pixelsize=13;2"
+font-3 = "Font Awesome 5 Brands:pixelsize=13;2"
+font-4 = "Material Icons:size=13;4"
+font-5 = "Fantasque Sans Mono:pixelsize=12;2"
+
+;==========================================================
+
+
+;modules-left = main_menu terminal code firefox i3
+modules-left = main_menu i3 
+modules-center = date
+;modules-right =  memory swap cpu battery xkeyboard logout
+modules-right =   memory battery xkeyboard space logout
+
+;wm-restack = i3
+
+spicing = 20
+;scroll-up = i3wm-wsnext
+;scroll-down = i3wm-wsprev
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+
+; Position of the system tray window
+; If empty or undefined, tray support will be disabled
+; NOTE: A center aligned tray will cover center aligned modules
+;
+; Available positions:
+;   left
+;   center
+;   right
+;   none
+tray-position = right
+
+; If true, the bar will not shift its
+; contents when the tray changes
+tray-detached = true
+
+; Tray icon max size
+tray-maxsize = 24
+
+; Background color for the tray container 
+; ARGB color (e.g. #f00, #ff992a, #ddff1023)
+; By default the tray container will use the bar
+; background color.
+tray-background = ${colors.background}
+
+; Tray offset defined as pixel value (e.g. 35) or percentage (e.g. 50%)
+tray-offset-x = -60
+tray-offset-y = 0
+
+; Pad the sides of each tray icon
+tray-padding = 5
+
+; Scale factor for tray clients
+tray-scale = 1.2
